@@ -1,0 +1,146 @@
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+li, a, button 
+{
+  font-family: 'Bitter', serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #022e57;
+  text-decoration: none;
+}
+header 
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff5fd;
+  height: fit-content;
+  border-bottom: 2px solid #f7c3ce;
+  position: static;
+  
+}
+h5 
+{
+  font-size: 1.2rem;
+  color: #022e57;
+  font-family: 'Bitter', serif;
+  cursor: pointer;
+}
+.body-section img{
+  width: 15rem;
+}
+.nav-links
+{
+  list-style: none;
+}
+.nav-links li 
+{
+  display: inline-block;
+  padding: 0px 20px;
+  
+}
+.nav-links li a 
+{
+  transition: all 0.3s ease 0s;
+ 
+}
+.nav-links li a:hover 
+{
+  color: #022e57;
+  font-weight: 900;
+}
+button 
+{
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+  color: #fff5fd;
+}
+button:hover 
+{
+  background-color: rgba(1, 41, 51, 0.8);
+}
+.body-section
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  justify-content: space-between;
+  padding: 5%;
+}
+.body-section p
+{
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+
+}
+footer 
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+  height: 30vh;
+  background-color: #fff5fd;
+  padding-top: 1em;
+  color: #022e57;
+ 
+}
+footer p 
+{
+  font-family: 'Bitter', serif;
+}
+
+.resume
+{
+  display: grid;
+  background-color: #fff5fd;
+  height: 100vh;
+  padding: 10;
+  grid-template-rows: auto;
+  justify-content: center;
+  justify-items: center;
+}
+.vid-exp 
+{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+}
+.projects
+{
+  display: grid;
+  background-color: #fff5fd;
+  padding: 10;
+  grid-template-rows: auto;
+  justify-content: center;
+  justify-items: center;
+
+}
+.projects div {
+  margin: 2rem;
+}
+.projects h2{
+  margin-top: 3rem;
+}
+img{
+  width: 80vw;
+  max-width: 500px;
+}
+@media(max-width:500px){
+  .projects, .resume{
+    display: wrap;
+  }
+}
